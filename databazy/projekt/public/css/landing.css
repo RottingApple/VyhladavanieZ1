@@ -1,0 +1,65 @@
+
+body{
+	margin:0;
+	padding: 0;
+	color: #000;
+	background: #f3f3f3;
+	font-family: 'Lato', sans-serif;
+}
+
+.main_content{
+	height: 97%;
+	margin: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar{
+	display: block;
+	float: right;
+	color: black;
+	padding-left: 20px;
+	flex: auto;
+}
+
+.sidebar .container{ 
+	border: 1px solid black;
+	padding-top:5px;
+	margin-bottom: 10px;
+	background-color: #d1d1d1;
+}
+
+.sidebar_element{
+	margin-bottom: 10px;
+	width: 20%;
+}
+
+#mapid { 
+	background-color: green;
+	display: inline-block;
+	height: 100%;
+	width: 80%;
+	float: left;
+	border: 1px solid green;
+}
+
+.inline{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#reset{
+	margin-top: 10px;
+	width: 30%;
+	display: line;
+}
+
+#zones{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	display: line;
+	float: left;
+	margin-right: 2.5px;
+}
